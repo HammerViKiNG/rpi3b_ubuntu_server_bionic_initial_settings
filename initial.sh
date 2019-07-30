@@ -9,7 +9,7 @@ add-apt-repository -y ppa:ubuntu-pi-flavour-makers/ppa
 apt-get update
 
 # Install VideoCore utilities
-apt-get install -y ibraspberrypi-bin libraspberrypi-bin-nonfree
+apt-get install -y libraspberrypi-bin libraspberrypi-bin-nonfree
 
 # install one of the desktop managers and tune the X server
 if [[ $1 == "kubuntu-desptop" || $1 == "lubuntu-desktop" || $1 == "xubuntu-desktop" || $1 == "ubuntu-desktop" || $1 == "lxde" ]]; then    # TODO: add other desktop managers
