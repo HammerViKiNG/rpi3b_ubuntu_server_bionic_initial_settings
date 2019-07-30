@@ -3,6 +3,8 @@
 
 # Add Raspberry Pi repositories and update the package index
 add-apt-repository -y ppa:ubuntu-raspi2/ppa
+apt-get update
+
 add-apt-repository -y ppa:ubuntu-pi-flavour-makers/ppa
 apt-get update
 
