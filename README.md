@@ -13,8 +13,9 @@ for installing it is necessary to clone the repository and run the script file:
 git clone https://github.com/HammerViKiNG/rpi3b_ubuntu_server_bionic_initial_settings.git
 cd rpi3b_ubuntu_server_bionic_initial_settings
 chmod a+x initial.sh
-sudo ./initial.sh lubuntu # Also possible xubuntu, kubuntu or ordinar ubuntu. 
-                          # Running without flag will not install any desktop manager
+sudo ./initial.sh lubuntu-desktop # Also possible xubuntu-desktop,
+                                  # kubuntu-desktop, ordinary ubuntu-desktop or
+                                  # lxde. Running without flag will not install                                   # any desktop manager
 ```
 
 ## Credits
