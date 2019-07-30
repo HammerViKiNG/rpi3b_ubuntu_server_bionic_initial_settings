@@ -11,7 +11,7 @@ apt-get install -y ibraspberrypi-bin libraspberrypi-bin-nonfree
 
 # install one of the desktop managers and tune the X server
 if [[ $1 == "kubuntu-desptop" || $1 == "lubuntu-desktop" || $1 == "xubuntu-desktop" || $1 == "ubuntu-desktop" || $1 == "lxde" ]]; then    # TODO: add other desktop managers
-    apt-get install -y $0  xserver-xorg-video-fbturbo
+    apt-get install -y $1  xserver-xorg-video-fbturbo
 
     # Copy xorg.conf file to /etc/X11/xorg.conf
     cp xorg.conf /etc/X11/xorg.conf
